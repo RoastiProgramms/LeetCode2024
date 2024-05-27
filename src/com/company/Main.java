@@ -10,12 +10,7 @@ public class Main {
 	// write your code heres
     }
 }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
 class janfifteen{
     public boolean closeStrings(String word1, String word2) {
         if(word1.length()!=word2.length())
@@ -67,5 +62,3 @@ class janfifteen{
         return Arrays.equals(valuesArray1, valuesArray2);
     }
 }
->>>>>>> origin/master
->>>>>>> 548bff861139504dd28107887cedd0fb9a9c3284
