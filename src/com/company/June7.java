@@ -6,10 +6,7 @@ import java.util.List;
 public class June7 {
     public String replaceWords(List<String> dictionary, String sentence) {
         HashSet<String> dict=new HashSet<>();
-        for(String word : dictionary)
-        {
-            dict.add(word);
-        }
+        dict.addAll(dictionary);
         String[] sent=sentence.split(" ");
         for(int i=0;i<sent.length;i++)
         {
