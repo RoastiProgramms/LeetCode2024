@@ -9,7 +9,6 @@ public class Aug15 {
                 if(bills[i]==5)
                 {
                     countFive+=1;
-                    continue;
                 }
                 else if(bills[i]==10)
                 {
